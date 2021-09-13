@@ -5,8 +5,10 @@ header {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  justify-content: center;
   gap: 10rem;
+}
+main {
+  font-family: "Roboto", sans-serif;
 }
 .search {
   margin-right: auto;
@@ -27,4 +29,17 @@ img {
   display: block;
   margin-right: auto;
   margin-left: auto;
+}
+section {
+  text-align: center;
+}
+div {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+.ingredients {
+  text-align: left;
+  margin-left: 30rem;
 }
