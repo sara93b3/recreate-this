@@ -16,14 +16,20 @@ body {
 button {
   padding: 0.5rem;
   border-radius: 34px;
-  background: pink;
   text-align: center;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
-  color: white;
   cursor: pointer;
   border: none;
+}
+.x {
+  background: lightgrey;
+  color: black;
+}
+.y {
+  background: darkred;
+  color: white;
 }
 .cabbage {
   display: block;
@@ -77,4 +83,18 @@ main {
   display: grid;
   grid-template-columns: 17% 17% 17% 17% 17% 17%;
   grid-template-rows: 10% 10% 10% 10% 10% 10%;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 75.2em;
+  background-color: lightgrey;
+}
+ul {
+  list-style: none;
+  line-height: 2;
 }
