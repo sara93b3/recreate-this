@@ -25,15 +25,15 @@ button {
   cursor: pointer;
   border: none;
 }
-img {
+.cabbage {
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
-section {
+.center {
   text-align: center;
 }
-div {
+.divcenter {
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -41,5 +41,33 @@ div {
 }
 .ingredients {
   text-align: left;
-  margin-left: 30rem;
+  margin-left: 26.5rem;
+}
+div {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 12.2em;
+}
+.b {
+  position: relative;
+  top: -14em;
+}
+.small {
+  max-width: 12.5rem;
+}
+p.ontop {
+  position: relative;
+  bottom: 4.2em;
+  margin-left: 0.6em;
+  z-index: 200;
+}
+.bar {
+  height: 1.5em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  margin-top: 5em;
+  position: relative;
+  bottom: 12.2em;
 }
